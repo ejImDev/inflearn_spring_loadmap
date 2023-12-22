@@ -24,3 +24,8 @@
       - 스프링 웹 애플리케이션과 싱글톤의 관계
       - @Configuration 어노테이션의 역할
       - @Configuration 바이트코드의 조작 원리
+   6) 컴포넌트 스캔 (12/22)
+      - @ComponentScan : @Component 애노테이션이 붙은 클래스를 스캔해서 스프링 빈으로 등록함. 일반적으로 스프링부트의 시작 정보인 @SpringBootApplication 안에 @ComponentScan가 들어있음
+      - @Autowired : @Component를 사용해서 스프링 컨테이너에 빈을 저장할때 의존관계를 지정해줌
+      - @ComponentScan의 스캔 기본 대상 : @Component, @Service, @Repository, @Configuration
+      - 중복 빈 생성 : 자동vs자동은 실행시 오류가 발생하나, 자동vs수동은 수동이 우선권을 가지고 오버라이딩 함 (단 스프링부트를 통해 실행하면 오류가 발생함)
