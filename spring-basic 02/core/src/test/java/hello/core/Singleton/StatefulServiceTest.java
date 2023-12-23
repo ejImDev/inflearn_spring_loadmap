@@ -24,7 +24,7 @@ class StatefulServiceTest {
         int priceB = statefulService2.getPrice();
 
         Assertions.assertThat(statefulService1.getPrice()).isEqualTo(statefulService2.getPrice());
-        Assertions.assertThat(userA).isEqualTo(userB);
+        Assertions.assertThat(userA).isNotEqualTo(userB);
     }
 
     @Configuration
