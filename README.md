@@ -49,3 +49,10 @@
       - request 스코프 만들기 및 프록시모드 활용 방법  
 
 </details>
+
+
+<details>
+<summary>2. 모든 개발자를 위한 HTTP 웹 기본 지식 (1/9~)</summary>
+   
+   1) 인터넷 네트워크 (1/9)
+</details>
